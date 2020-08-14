@@ -1,4 +1,4 @@
-package com.lendico.plan_generator.utils;
+package com.farias.plan_generator.utils;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

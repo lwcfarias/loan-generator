@@ -1,4 +1,4 @@
-package com.lendico.plan_generator;
+package com.farias.plan_generator;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

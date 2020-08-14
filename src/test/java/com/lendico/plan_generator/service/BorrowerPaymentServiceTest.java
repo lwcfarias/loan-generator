@@ -1,7 +1,7 @@
 package com.lendico.plan_generator.service;
 
-import static com.lendico.plan_generator.utils.BorrowerPaymentFactory.createBorrowerPaymentDO;
-import static com.lendico.plan_generator.utils.FormatUtils.convertStringToDateUTC;
+import static com.farias.plan_generator.utils.BorrowerPaymentFactory.createBorrowerPaymentDO;
+import static com.farias.plan_generator.utils.FormatUtils.convertStringToDateUTC;
 import static org.hamcrest.CoreMatchers.instanceOf;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
@@ -15,11 +15,12 @@ import java.util.List;
 
 import org.junit.jupiter.api.Test;
 
-import com.lendico.plan_generator.exception.LoanInvalidDataException;
-import com.lendico.plan_generator.model.BorrowerPaymentDO;
-import com.lendico.plan_generator.model.BorrowerPayments;
-import com.lendico.plan_generator.model.LoanDO;
-import com.lendico.plan_generator.service.impl.BorrowerPaymentServiceImpl;
+import com.farias.plan_generator.exception.LoanInvalidDataException;
+import com.farias.plan_generator.model.BorrowerPaymentDO;
+import com.farias.plan_generator.model.BorrowerPayments;
+import com.farias.plan_generator.model.LoanDO;
+import com.farias.plan_generator.service.BorrowerPaymentService;
+import com.farias.plan_generator.service.impl.BorrowerPaymentServiceImpl;
 
 public class BorrowerPaymentServiceTest {
 	private BorrowerPaymentService borrowerPaymentService = new BorrowerPaymentServiceImpl();

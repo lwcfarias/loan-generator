@@ -1,4 +1,4 @@
-package com.lendico.plan_generator.model;
+package com.farias.plan_generator.model;
 
 import java.util.List;
 

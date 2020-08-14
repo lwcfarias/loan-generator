@@ -1,8 +1,8 @@
-package com.lendico.plan_generator.service;
+package com.farias.plan_generator.service;
 
-import com.lendico.plan_generator.exception.LoanInvalidDataException;
-import com.lendico.plan_generator.model.BorrowerPayments;
-import com.lendico.plan_generator.model.LoanDO;
+import com.farias.plan_generator.exception.LoanInvalidDataException;
+import com.farias.plan_generator.model.BorrowerPayments;
+import com.farias.plan_generator.model.LoanDO;
 
 /**
  * Generates the borrower payments regards an specific loan.

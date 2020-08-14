@@ -1,4 +1,4 @@
-package com.lendico.plan_generator.exception;
+package com.farias.plan_generator.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

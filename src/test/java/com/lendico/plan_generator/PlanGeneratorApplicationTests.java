@@ -1,8 +1,9 @@
 package com.lendico.plan_generator;
 
-import static com.lendico.plan_generator.utils.FormatUtils.convertStringToDateUTC;
+import static com.farias.plan_generator.utils.BorrowerPaymentFactory.createBorrowerPaymentDO;
+import static com.farias.plan_generator.utils.FormatUtils.convertStringToDateUTC;
 import static org.hamcrest.Matchers.hasSize;
-import static com.lendico.plan_generator.utils.BorrowerPaymentFactory.createBorrowerPaymentDO;
+
 import java.math.BigDecimal;
 import java.text.ParseException;
 import java.util.ArrayList;
@@ -18,10 +19,10 @@ import org.springframework.test.web.servlet.ResultActions;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 
+import com.farias.plan_generator.model.BorrowerPaymentDO;
+import com.farias.plan_generator.model.BorrowerPayments;
+import com.farias.plan_generator.model.LoanDO;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.lendico.plan_generator.model.BorrowerPaymentDO;
-import com.lendico.plan_generator.model.BorrowerPayments;
-import com.lendico.plan_generator.model.LoanDO;
 
 @SpringBootTest
 @AutoConfigureMockMvc

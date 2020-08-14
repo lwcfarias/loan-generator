@@ -1,9 +1,9 @@
-package com.lendico.plan_generator.utils;
+package com.farias.plan_generator.utils;
 
 import java.math.BigDecimal;
 import java.util.Date;
 
-import com.lendico.plan_generator.model.BorrowerPaymentDO;
+import com.farias.plan_generator.model.BorrowerPaymentDO;
 
 public class BorrowerPaymentFactory {
 	/*

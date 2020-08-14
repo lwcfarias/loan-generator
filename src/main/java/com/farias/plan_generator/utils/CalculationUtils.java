@@ -1,4 +1,4 @@
-package com.lendico.plan_generator.utils;
+package com.farias.plan_generator.utils;
 
 import static java.math.BigDecimal.ONE;
 import static java.math.RoundingMode.HALF_UP;

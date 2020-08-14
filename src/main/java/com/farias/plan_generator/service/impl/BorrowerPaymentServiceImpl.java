@@ -1,4 +1,4 @@
-package com.lendico.plan_generator.service.impl;
+package com.farias.plan_generator.service.impl;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
@@ -7,13 +7,13 @@ import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.lendico.plan_generator.exception.LoanInvalidDataException;
-import com.lendico.plan_generator.model.BorrowerPaymentDO;
-import com.lendico.plan_generator.model.BorrowerPayments;
-import com.lendico.plan_generator.model.LoanDO;
-import com.lendico.plan_generator.service.BorrowerPaymentService;
-import com.lendico.plan_generator.utils.BorrowerPaymentFactory;
-import com.lendico.plan_generator.utils.CalculationUtils;
+import com.farias.plan_generator.exception.LoanInvalidDataException;
+import com.farias.plan_generator.model.BorrowerPaymentDO;
+import com.farias.plan_generator.model.BorrowerPayments;
+import com.farias.plan_generator.model.LoanDO;
+import com.farias.plan_generator.service.BorrowerPaymentService;
+import com.farias.plan_generator.utils.BorrowerPaymentFactory;
+import com.farias.plan_generator.utils.CalculationUtils;
 
 import lombok.extern.slf4j.Slf4j;
 
