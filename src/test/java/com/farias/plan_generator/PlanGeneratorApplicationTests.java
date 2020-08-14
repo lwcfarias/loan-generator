@@ -1,4 +1,4 @@
-package com.lendico.plan_generator;
+package com.farias.plan_generator;
 
 import static com.farias.plan_generator.utils.BorrowerPaymentFactory.createBorrowerPaymentDO;
 import static com.farias.plan_generator.utils.FormatUtils.convertStringToDateUTC;
